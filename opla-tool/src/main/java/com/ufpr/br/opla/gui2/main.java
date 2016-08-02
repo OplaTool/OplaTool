@@ -907,7 +907,7 @@ public class main extends javax.swing.JFrame {
             }
         });
         
-        checkCoe.setText("Lack of Concer-based Cohesion");
+        checkCoe.setText("Lack of Feature-based Cohesion");
         checkCoe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 checkCoeActionPerformed(evt);
@@ -949,6 +949,7 @@ public class main extends javax.swing.JFrame {
                     .addComponent(checkAcomp)
                     .addComponent(checkAclass)
                     .addComponent(checkTam)
+                    .addComponent(checkH)
                		.addComponent(checkPLAExt)
                     )
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -959,7 +960,7 @@ public class main extends javax.swing.JFrame {
                		.addComponent(checkDc)
                		.addComponent(checkCoe)
                     .addComponent(checkElegance)
-                    .addComponent(checkH)
+                    
                     )
                    
                 
@@ -985,10 +986,11 @@ public class main extends javax.swing.JFrame {
             	            		.addComponent(checkTam)
             	            		.addComponent(checkCoe))
             	           .addGroup(panelMetricsLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-            	            		.addComponent(checkPLAExt)
+            	        		   .addComponent(checkH)
             	            		.addComponent(checkElegance))
             	           .addGroup(panelMetricsLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-           	            		.addComponent(checkH))
+            	        		   .addComponent(checkPLAExt)
+            	        		   )
             	          
                     
                     )))
