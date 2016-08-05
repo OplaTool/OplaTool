@@ -62,7 +62,7 @@ public class main extends javax.swing.JFrame {
   /**
    * Creates new form main
    */
-  public main() throws Exception {
+  public main() throws Exception {ew
 
     DefaultCaret caret = (DefaultCaret) textLogsArea.getCaret();
     caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
